@@ -423,3 +423,132 @@ footer::after {
   right: -50px;
   transform: rotateZ(10deg);
 }
+
+@media (max-width: 768px) {
+
+  h2{
+    font-size: 37px;
+    margin: auto;
+  }
+
+  p{
+    font-size: 13px;
+    margin: 15px 0;
+  }
+
+  button{
+    padding: 25px;
+  }
+
+  header {
+    min-height: 554px;
+  }
+
+  .header-content{
+    padding-bottom: 0;
+    padding-top: 38px;
+  }
+
+  .header-content p{
+    margin: 20px 0;
+  }
+
+  .dark-theme button{
+    letter-spacing: unset;
+  }
+
+  section{
+    display: grid;
+    margin-bottom: 60px;
+    padding: 0 10px;
+  }
+
+  .section-texts{
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .world-characters#bottom-characters{
+    height: 200px;
+  }
+
+  .invert-element{
+    width: 95%
+  }
+
+  .video-frame{
+    order: 2;
+  }
+
+  #section-stranger-things-trailer .video-frame iframe{
+    width: 100%;
+    height: auto;
+    left: 8px;
+    bottom: 12px;
+  }
+
+  #section-stranger-things-trailer .section-texts{
+    margin-bottom: 25px;
+  }
+
+  #section-stranger-things-gallery{
+    background: unset;
+  }
+
+  #section-stranger-things-gallery .container h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  #section-stranger-things-gallery .gallery-container{
+    display: grid;
+    justify-items: center;
+    padding-left: 0;
+  }
+
+  #section-form{
+    gap: 18px;
+  }
+
+  #section-form h2{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #section-form p{
+    margin: 0 10px;
+  }
+
+  #section-form .form-content{
+    display: grid
+  }
+
+  #section-form .form-content h3{
+    font-size: 26px;
+    text-align: center;
+  }
+
+  #section-form .form-container::after{
+    width: 95%;
+  }
+
+  #section-form .form-container form{
+    padding: 20px;
+    margin: 16px 5px 0;
+  }
+
+  footer{
+    padding: 15px 0;
+  }
+
+  footer p{
+    margin: 15px 5px 24px; 
+  }
+
+  footer::before, 
+  footer::after{
+    width: 124px;
+    height: 113px;
+  }
+}
